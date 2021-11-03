@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_add"
     tools:context=".NewTask">
 
     <EditText
@@ -11,8 +12,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:shadowRadius="5"
+        android:shadowColor="#BBB0EE"
+        android:background="@drawable/etshape"
         android:inputType="textPersonName"
         android:hint="Task Name"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -26,6 +31,10 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
+        android:background="@drawable/etshape"
+        android:shadowRadius="5"
+        android:shadowColor="#BBB0EE"
+        android:textAlignment="center"
         android:hint="Task Description"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,8 +55,10 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etDescription" />
+        app:layout_constraintTop_toBottomOf="@+id/etDescription"
+        app:layout_constraintVertical_bias="0.359" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btNext"
@@ -55,12 +66,14 @@
         android:layout_height="45dp"
         android:background="@drawable/buttonshape"
         android:fontFamily="sans-serif-condensed-light"
+        android:text="Next"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
-        android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btSave" />
+        app:layout_constraintTop_toBottomOf="@+id/btSave"
+        app:layout_constraintVertical_bias="0.165" />
 </androidx.constraintlayout.widget.ConstraintLayout>

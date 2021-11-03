@@ -4,14 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/drawable/background.xml" value="0.19375" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/drawable/buttonshape.xml" value="0.19375" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/layout/activity_new_task.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/drawable/buttonshape.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/drawable/etshape.xml" value="0.19375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/layout/activity_new_task.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/layout/activity_vew_tasks.xml" value="0.1734375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/layout/activity_view_tasks.xml" value="0.13055555555555556" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/layout/fragment_timer.xml" value="0.22" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/layout/fragment_view_task.xml" value="0.1734375" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/layout/task_row.xml" value="0.18" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/layout/fragment_timer.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/layout/fragment_view_task.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/layout/task_row.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskTimerTest/app/src/main/res/layout/taskinfo_row.xml" value="0.25" />
       </map>
     </option>
   </component>

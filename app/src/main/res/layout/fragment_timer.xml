@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/bg_timer"
     android:layout_height="match_parent"
-    android:background="#1f1b2e"
     tools:context=".TimerFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".Timer">
@@ -17,31 +16,32 @@
             android:id="@+id/tvTask"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
             android:text="Task: Sleeping"
             android:textSize="30dp"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:textColor="#6867AC"
             app:layout_constraintBottom_toTopOf="@+id/tvTimer"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.255" />
+            app:layout_constraintVertical_bias="0.085" />
 
         <TextView
             android:id="@+id/tvDetails"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Description"
+            android:textColor="#BBB0EE"
+            android:textStyle="italic"
             android:textSize="20dp"
-            android:textColor="@color/white"
             android:fontFamily="sans-serif-light"
             app:layout_constraintBottom_toTopOf="@+id/tvTimer"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvTask"
-            app:layout_constraintVertical_bias="0.295" />
+            app:layout_constraintVertical_bias="0.05" />
 
         <Chronometer
             android:id="@+id/tvTimer"
@@ -49,37 +49,38 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="sans-serif-thin"
-            android:textColor="@color/white"
             android:text="24 : 00"
-            android:textSize="96sp"
+            android:textSize="50sp"
+            android:textColor="#6867AC"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.67" />
 
         <ImageView
             android:id="@+id/ivPause"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="95dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.324"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvTimer"
             app:layout_constraintVertical_bias="0.546"
-            app:srcCompat="@android:drawable/ic_media_pause" />
+            app:srcCompat="@drawable/pasue" />
 
         <ImageView
             android:id="@+id/ivResume"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.633"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvTimer"
             app:layout_constraintVertical_bias="0.546"
-            app:srcCompat="@android:drawable/ic_media_play" />
+            app:srcCompat="@drawable/plaay" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
